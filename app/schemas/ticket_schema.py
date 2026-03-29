@@ -4,3 +4,4 @@ class TicketCreate(BaseModel):
     title: str
     description: str
     priority: str = "medium"
+    category: str = "general"

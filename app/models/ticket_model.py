@@ -6,3 +6,4 @@ class Ticket(Document):
     title = StringField(required=True)
     description = StringField(required=True)
     priority = StringField(default="medium")
+    category = StringField(default="general")

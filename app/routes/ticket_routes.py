@@ -6,8 +6,8 @@ from typing import Optional
 router = APIRouter()
 
 @router.post("/tickets")
-def add_ticket(ticket: TicketCreate):
-    return create_ticket(ticket)
+async def add_ticket(ticket: TicketCreate):
+    return await create_ticket(ticket)
 
 @router.get("/tickets")
 def fetch_tickets(priority: Optional[str] = None):
