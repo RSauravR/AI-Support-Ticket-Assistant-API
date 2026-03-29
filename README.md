@@ -43,6 +43,7 @@ app/
 └── services/
     ├── ticket_service.py  # Business logic for ticket operations
     └── ai_service.py      # LLM logic & error handling
+```
 
 # AI Support Ticket Assistant API
 
