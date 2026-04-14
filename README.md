@@ -136,4 +136,4 @@ This project highlights several key backend and AI integration skills:
 ## 📜 License
 This project is for learning and demonstration purposes.
 
-**Author:** Saurav R R
+**Author:** Saurav R
